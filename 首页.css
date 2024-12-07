@@ -524,9 +524,23 @@
   .friend-links {
     display: flex; /* 友情链接也使用 Flexbox 排列 */
     align-items: center; /* 垂直居中对齐 */
-    background-color: gray;
+    background-color: white;
   }
   
+  .weather{
+    margin-left:auto;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: lightblue;
+    color:white;
+    border-radius: 10px;
+  }
+  .weather:hover{
+    background-color: lightcyan;
+    color:lightskyblue;
+}
+  
+
   .introduction a{
     /* display: inline-block; 确保每个链接是块状元素 */
     padding: 10px 15px; /* 内边距 */
